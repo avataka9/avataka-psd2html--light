@@ -1,12 +1,17 @@
 {
   "name": "avataka",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gulp bundler for light layout, without any js framework at this moment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avataka9/avataka-psd2html--light.git"
+  },
+  "author": "Alex Maruga",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
